@@ -5,12 +5,18 @@
 .wrapper {
   height: 100px;
   width: 90%;
-  max-width: 1000rem;
+  max-width: 1536px;
   position: relative;
-  border: 1px solid #000;
   margin-top: 5rem;
   margin-inline: auto;
   overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+    );
 }
 
 @keyframes scrollLeft {
@@ -21,11 +27,11 @@
 
 .item {
   position: absolute;
-  width: calc(11vw);
+  width: 200px; /* calc(11vw); */
   height: 100px;
   background-color: #FF0000;
   border-radius: 6px;
-  left: 100%;
+  left: max(calc(200px * 8), 100%);
   animation-name: scrollLeft;
   animation-duration: 30s;
   animation-timing-function: linear;
