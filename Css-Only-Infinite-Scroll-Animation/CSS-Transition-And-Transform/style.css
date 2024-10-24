@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  width: 400px;
+  height: 400px;
+  border: 3px solid rebeccapurple;
+  perspective: 800px;
+}
+
+.shape {
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  transform: rotateY(-45deg);
+  transition: all 8s ease;
+}
