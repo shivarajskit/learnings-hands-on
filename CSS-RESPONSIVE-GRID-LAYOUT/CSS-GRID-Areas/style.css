@@ -35,7 +35,7 @@
        "footer footer footer"
    }
    
-   @media (min-width: 860px) {
+   @media only screen and (min-width: 860px) {
      body {
        grid-template-columns: 1.5em minmax(400px, 650px) minmax(200px, 350px) 1.5em;
        grid-template-areas:
@@ -45,7 +45,7 @@
      }
    }
    
-   @media (min-width: 860px) {
+   @media only screen and (min-width: 860px) {
      body {
        grid-template-columns: minmax(1.5em, 1fr) minmax(650px, 960px) 450px minmax(1.5em, 1fr);
        grid-template-areas:
