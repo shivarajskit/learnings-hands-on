@@ -1,0 +1,17 @@
+{
+  "name": "css-tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:css": "npx tailwindcss build src/main.css -o dist/styles.css",
+    "start": "npm run build:css && your-dev-server-command",
+    "dev:css": "npx tailwindcss -i src/main.css -o dist/styles.css --watch",
+    "prod:css": "npx tailwindcss -i src/main.css -o dist/styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2",
+    "postcss": "^8.4.23",
+    "autoprefixer": "^10.4.13"
+  }
+}
