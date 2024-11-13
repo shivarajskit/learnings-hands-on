@@ -554,6 +554,16 @@ video {
   display: none;
 }
 
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .btn-primary {
   border-radius: 9999px;
   --tw-bg-opacity: 1;
@@ -585,6 +595,13 @@ video {
   --tw-ring-opacity: 0.75;
 }
 
+.card {
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
 .invisible {
   visibility: hidden;
 }
@@ -603,10 +620,6 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-\[117px\] {
-  margin-top: 117px;
 }
 
 .block {
@@ -716,6 +729,8 @@ video {
 /* Custom Classes */
 
 /* Extracting classes with @apply */
+
+/* @layer to say where the custom styles belong */
 
 .before\:absolute::before {
   content: var(--tw-content);
