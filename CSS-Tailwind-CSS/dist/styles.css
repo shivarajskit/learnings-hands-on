@@ -680,6 +680,11 @@ h2 {
   line-height: 2.25rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -848,6 +853,13 @@ h2 {
 
   .lg\:content-auto {
     content-visibility: auto;
+  }
+}
+
+@media (min-width: 1600px) {
+  .\33xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 

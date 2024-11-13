@@ -10,6 +10,7 @@ module.exports = {
       md: "768px",
       lg: "976px",
       xl: "1440px",
+      "3xl": "1600px", // // Adds a new `3xl:` screen variant
     },
     fontFamily: {
       fantasy: ["fantasy", "serif"],
