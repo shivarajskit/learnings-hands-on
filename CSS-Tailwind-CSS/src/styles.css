@@ -57,7 +57,7 @@
 }
 
 .bar {
-  @apply foo;
+  @apply foo; /*  @apply foo !important; to keep !important*/
 }
 
 /* Output */

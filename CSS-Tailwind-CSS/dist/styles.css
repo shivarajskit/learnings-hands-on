@@ -742,6 +742,7 @@ h2 {
 
 .bar {
   color: blue;
+  /*  @apply foo !important; to keep !important*/
 }
 
 /* Output */
