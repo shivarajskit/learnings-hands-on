@@ -743,6 +743,7 @@ h2 {
 .bar {
   color: blue;
   /*  @apply foo !important; to keep !important*/
+  /* also if using SASS/SCSS use interpolation #{!important}; */
 }
 
 /* Output */
