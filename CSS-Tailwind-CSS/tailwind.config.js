@@ -38,6 +38,9 @@ module.exports = {
       aspectRatio: {
         "4/3": "4 / 3",
       },
+      zIndex: {
+        100: "100",
+      },
     },
   },
   plugins: [],
