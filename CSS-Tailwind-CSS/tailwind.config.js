@@ -10,13 +10,15 @@ module.exports = {
       md: "768px",
       lg: "976px",
       xl: "1440px",
-      "3xl": "1600px", // // Adds a new `3xl:` screen variant
     },
     fontFamily: {
       fantasy: ["fantasy", "serif"],
       serif: ["Merriweather", "serif"],
     },
     extend: {
+      screens: {
+        "3xl": "1600px", // // Adds a new `3xl:` screen variant
+      },
       spacing: {
         128: "32rem",
         144: "36rem",
@@ -32,6 +34,9 @@ module.exports = {
         "gray-dark": "#273444",
         gray: "#8492a6",
         "gray-light": "#d3dce6",
+      },
+      aspectRatio: {
+        "4/3": "4 / 3",
       },
     },
   },
