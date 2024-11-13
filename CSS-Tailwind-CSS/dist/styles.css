@@ -732,6 +732,28 @@ h2 {
 
 /* @layer to say where the custom styles belong */
 
+/* @apply functionality */
+
+/* Input */
+
+.foo {
+  color: blue !important;
+}
+
+.bar {
+  color: blue;
+}
+
+/* Output */
+
+.foo {
+  color: blue !important;
+}
+
+.bar {
+  color: blue;
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
