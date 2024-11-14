@@ -634,6 +634,10 @@ h2 {
   display: inline-block;
 }
 
+.flex {
+  display: flex;
+}
+
 .inline-grid {
   display: inline-grid;
 }
@@ -654,12 +658,42 @@ h2 {
   width: 100%;
 }
 
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
+.basis-1\/4 {
+  flex-basis: 25%;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .gap-4 {
   gap: 1rem;
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.overflow-auto {
+  overflow: auto;
 }
 
 .rounded-3xl {
@@ -672,6 +706,10 @@ h2 {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .bg-sky-500 {
@@ -689,12 +727,21 @@ h2 {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-fuchsia-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 70 239 / var(--tw-bg-opacity));
+}
+
 .p-3 {
   padding: 0.75rem;
 }
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-5 {
@@ -749,6 +796,10 @@ h2 {
 
 .italic {
   font-style: italic;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
 }
 
 .text-slate-700 {
