@@ -859,6 +859,10 @@ h2 {
   font-family: fantasy, serif;
 }
 
+.font-serif {
+  font-family: Merriweather, serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1011,6 +1015,10 @@ h2 {
 .hover\:bg-violet-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(109 40 217 / var(--tw-bg-opacity));
+}
+
+.hover\:font-serif:hover {
+  font-family: Merriweather, serif;
 }
 
 .hover\:text-white:hover {
