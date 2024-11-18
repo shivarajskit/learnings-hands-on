@@ -1166,6 +1166,10 @@ h2 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:filter-none:hover {
+  filter: none;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
