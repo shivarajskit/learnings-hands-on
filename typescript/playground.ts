@@ -1,7 +1,7 @@
 //1. Array Data Type - get first elemrnt of an array
 type Input = (number | string)[];
 
-function getFirstInput(array: Input): number | string {
+function getFirstInput(array: Input): (number | string) {
   return array[0];
 }
 

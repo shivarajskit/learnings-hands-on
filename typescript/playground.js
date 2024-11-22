@@ -1,3 +1,4 @@
+"use strict";
 function getFirstInput(array) {
     return array[0];
 }
