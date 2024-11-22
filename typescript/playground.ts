@@ -7,11 +7,11 @@
 5. lastly run with - node xxx.js
 */
 //1. Array Data Type - get first elemrnt of an array
-type numberArray = number[] | string[];
+type Input = (number | string)[];
 
-function getFirstNumber(array: numberArray): number | string {
+function getFirstInput(array: Input): number | string {
   return array[0];
 }
 
-console.log(getFirstNumber([1, 2, 3]));
-console.log(getFirstNumber(['one', 'two', 'three']));
+console.log(getFirstInput([1, 2, 3]));
+console.log(getFirstInput(['one', 'two', 'three']));
