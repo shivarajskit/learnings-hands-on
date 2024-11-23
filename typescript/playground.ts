@@ -16,14 +16,32 @@
 
 // To fix the problem, we can use generic type like below
 
+type User = {
+  name: string,
+  age: number
+}
+
 function getFirstInput<T>(array: T[]): T {
   return array[0];
 }
 
 let firstElem = getFirstInput<number>([1, 2, 3]);
 let firstElemStr = getFirstInput<string>(['ONE', 'TWO', 'THREE']);
+let firstElemObj = getFirstInput<User>([{
+  name: "Raj",
+  age: 30
+},
+{
+  name: "Shivaraj",
+  age: 34
+}]);
 
 console.log(firstElem);
 console.log(firstElemStr);
+console.log(firstElemObj);
 console.log(firstElemStr.toLowerCase());
-// OUTPUT: 1, ONE, one
+// OUTPUT: 
+// 1
+// ONE
+// { name: 'Raj', age: 30 }
+// one
