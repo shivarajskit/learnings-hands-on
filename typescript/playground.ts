@@ -20,8 +20,8 @@ function getFirstInput<T>(array: T[]): T {
   return array[0];
 }
 
-let firstElem = getFirstInput([1, 2, 3]);
-let firstElemStr = getFirstInput(['ONE', 'TWO', 'THREE']);
+let firstElem = getFirstInput<number>([1, 2, 3]);
+let firstElemStr = getFirstInput<string>(['ONE', 'TWO', 'THREE']);
 
 console.log(firstElem);
 console.log(firstElemStr);

@@ -19,3 +19,4 @@ let firstElemStr = getFirstInput(['ONE', 'TWO', 'THREE']);
 console.log(firstElem);
 console.log(firstElemStr);
 console.log(firstElemStr.toLowerCase());
+// OUTPUT: 1, ONE, one
